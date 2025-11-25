@@ -8,4 +8,5 @@ README.md
 coverage
 .vscode
 .astro
-dist
+# 不要忽略 dist，因為我們需要複製它到最終鏡像
+# dist
