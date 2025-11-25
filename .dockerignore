@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+README.md
+.env
+.nyc_output
+coverage
+.vscode
+.astro
+# 不要忽略 dist，因為我們需要複製它到最終鏡像
+# dist
