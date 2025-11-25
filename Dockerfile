@@ -9,8 +9,8 @@ WORKDIR /src
 # 複製 package.json 和 package-lock.json
 COPY package*.json ./
 
-# 安裝依賴
-RUN npm ci --only=production
+# 安裝所有依賴（包括 devDependencies 用於構建）
+RUN npm ci
 
 # 複製源碼
 COPY . .
